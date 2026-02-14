@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/searchKey"
+            android:hint="Search"
+            android:inputType="text"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"/>
+
+        <ImageButton
+            android:id="@+id/bt_Search"
+            android:layout_width="65dp"
+            android:layout_height="55dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/ic_search_magnifier" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

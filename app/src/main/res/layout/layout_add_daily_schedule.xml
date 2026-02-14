@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:cardElevation="10.0dip">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20.0dip"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@id/customerName"
+            style="@style/Widget.AppCompat.Spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="?dropdownListPreferredItemHeight"
+            android:layout_marginBottom="20.0dip"
+            android:background="@drawable/spinner_bg"
+            android:dropDownVerticalOffset="?dropdownListPreferredItemHeight"
+            android:popupBackground="@android:color/secondary_text_dark_nodisable"
+            android:popupElevation="3.0dip"
+            android:prompt="@string/select_customer_spinner_prompt"
+            android:spinnerMode="dialog"
+            android:stateListAnimator="@drawable/spinner_sla"
+            android:textColor="#ffffffff"
+            android:tooltipText="Select Customer" />
+
+        <Spinner
+            android:id="@+id/scheduleperiod"
+            style="@style/Widget.AppCompat.Spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="?dropdownListPreferredItemHeight"
+            android:layout_marginBottom="20.0dip"
+            android:background="@drawable/spinner_bg"
+            android:dropDownVerticalOffset="?dropdownListPreferredItemHeight"
+            android:popupBackground="@android:color/secondary_text_dark_nodisable"
+            android:popupElevation="3.0dip"
+            android:prompt="@string/select_schedule_period_spinner_prompt"
+            android:spinnerMode="dialog"
+            android:stateListAnimator="@drawable/spinner_sla"
+            android:textColor="#ffffffff"
+            android:tooltipText="Select Schedule Period" />
+
+        <TextView
+            android:id="@+id/scheduledate"
+            android:layout_width="fill_parent"
+            android:layout_height="46.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:textSize="20.0sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20.0dip"
+            android:text="Please enter schedule details"
+            android:textAlignment="center"
+            android:textSize="20.0sp" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/scheduledescription"
+            android:layout_width="fill_parent"
+            android:layout_height="156.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:hint="Report"
+            android:inputType="textImeMultiLine|textMultiLine"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20.0sp"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

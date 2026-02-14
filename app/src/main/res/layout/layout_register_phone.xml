@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+        <com.rengwuxian.materialedittext.MaterialEditText android:textSize="20.0sp" android:textColor="@color/colorPrimary" android:textColorHint="@color/colorPrimary" android:id="@id/etPhone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/phone" android:inputType="textEmailAddress" app:met_baseColor="@color/colorPrimary" app:met_floatingLabel="highlight" app:met_primaryColor="@color/colorPrimary" app:met_singleLineEllipsis="true" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

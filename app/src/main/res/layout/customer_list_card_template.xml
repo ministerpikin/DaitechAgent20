@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    cardview:cardCornerRadius="2dp"
+    cardview:cardElevation="3dp"
+    cardview:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="5dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="4dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/customerlistname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#444"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:text="Customer Name"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"/>
+
+        <TextView
+            android:id="@+id/customerlistnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:textColor="#e18d10"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="March 13th 2018" />
+
+        <TextView
+            android:id="@+id/customerlistaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:maxLines="4"
+            android:text="This is a good Post, I hope it will have 2 lines. Please give me 2 lines, This is a good Post, I hope it will have 2 lines. Please give me 2 lines, This is a good Post, I hope it will have 2 lines. Please give me 2 lines, This is a good Post, I hope it will have 2 lines. Please give me 2 lines"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Reports: " />
+
+            <TextView
+                android:id="@+id/reportcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="100"/>
+
+            <TextView
+                android:id="@+id/customerrating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:textAlignment="textEnd"
+                android:textSize="20sp"
+                tools:text="90" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp">
+
+            <ImageView
+                android:id="@+id/makecall"
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/ic_make_call"
+                android:contentDescription="callimage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/makecalllabel"
+                android:text="Call"/>
+
+            <ImageView
+                android:id="@+id/sendEmail"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_send_email" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendEmaillabel"
+                android:text="E-Mail"/>
+
+            <ImageView
+                android:id="@+id/locationPresent"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/ic_location_made" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/locationPresentLabel"
+                android:text="Captured"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

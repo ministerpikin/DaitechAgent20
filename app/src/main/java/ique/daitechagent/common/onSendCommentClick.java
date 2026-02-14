@@ -1,0 +1,1 @@
+package ique.daitechagent.common;import android.view.View;public interface onSendCommentClick {  void onClick(View view);}

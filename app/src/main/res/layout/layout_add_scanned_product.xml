@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/scandate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="textEnd"
+            android:text="Wednesday, 30 July 2019"
+            android:textSize="15sp"
+            android:maxLines="2"
+            android:ems="10" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:text="Scanned Barcode"
+            android:textSize="10sp"
+            android:textColor="#e18d10"
+            android:maxLines="2"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/scannedbarcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:maxLines="2"
+            android:ems="10" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:text="Customer"
+            android:textSize="10sp"
+            android:textColor="#e18d10"
+            android:maxLines="2"
+            android:ems="10" />
+        <Spinner
+            android:id="@+id/customerName"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="20dp"
+            android:prompt="@string/select_customer_spinner_prompt"
+            android:spinnerMode="dialog"
+            android:background="@drawable/spinner_bg"
+            android:stateListAnimator="@drawable/spinner_sla"
+            style="@style/Widget.AppCompat.Spinner"
+            android:layout_height="?attr/dropdownListPreferredItemHeight"
+            android:dropDownVerticalOffset="?attr/dropdownListPreferredItemHeight"
+            android:popupBackground="@android:color/secondary_text_dark_nodisable"
+            android:popupElevation="3dp"
+            android:textColor="#FFF"
+            android:tooltipText="Select Customer"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Philip"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:id="@+id/customerNameAdditional"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/scannedquantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Scanned Quantity"
+            android:inputType="number"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="20sp"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

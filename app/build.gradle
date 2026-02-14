@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 34
+    defaultConfig {
+        applicationId "ique.daitechagent"
+        minSdkVersion 26
+        targetSdkVersion 34
+        versionCode 7
+        versionName "7.0"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+    namespace 'ique.daitechagent'
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    //implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.google.firebase:firebase-messaging:24.0.0'
+    implementation 'com.google.firebase:firebase-database:21.0.0'
+    implementation 'com.google.firebase:firebase-auth:23.0.0'
+    implementation 'com.google.firebase:firebase-storage:21.0.0'
+    implementation 'com.firebase:firebase-client-android:2.5.2'
+    implementation 'com.firebase:geofire-android:3.2.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    //implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+    implementation 'io.github.inflationx:calligraphy3:3.1.1'
+    implementation 'io.github.inflationx:viewpump:2.0.3'
+    implementation 'com.google.android.gms:play-services-auth:21.2.0'
+    implementation 'com.google.android.gms:play-services-location:21.2.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    implementation 'com.google.android.gms:play-services-maps:18.2.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'com.github.d-max:spots-dialog:0.7@aar'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.11.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.11.0'
+    implementation 'com.google.code.gson:gson:2.11.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.google.maps.android:android-maps-utils:3.8.2'
+    implementation 'com.karumi:dexter:6.2.3'
+    //implementation 'com.facebook.android:facebook-login:17.0.0'
+    implementation 'com.github.medyo:fancybuttons:1.9.0'
+
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+
+    // External libraries
+    implementation 'com.github.bumptech.glide:glide:4.3.1'
+
+    //Graph lib
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0-alpha'
+}
+apply plugin: 'com.google.gms.google-services'

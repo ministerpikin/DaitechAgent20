@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4.0dip"
+    android:layout_marginBottom="4.0dip"
+    android:background="?selectableItemBackground"
+    android:elevation="5.0dip"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@id/customerNameList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginEnd="16.0dip"
+            android:layout_marginBottom="4.0dip"
+            android:text="Customer Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@id/reportDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginTop="4.0dip"
+            android:layout_marginEnd="16.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:text="March 13th 2018"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#ffe18d10" />
+
+        <TextView
+            android:id="@id/customerReportList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginTop="4.0dip"
+            android:layout_marginEnd="16.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:maxLines="4"
+            android:text="This is a good Post, I hope it will have 2 lines. Please give me 2 lines, This is a good Post, I hope it will have 2 lines. Please give me 2 lines, This is a good Post, I hope it will have 2 lines. Please give me 2 lines, This is a good Post, I hope it will have 2 lines. Please give me 2 lines"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/makecomments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginEnd="16.0dip"
+            android:layout_marginBottom="4.0dip"
+            android:background="@drawable/ic_report_chat_icon"
+            android:theme="@style/PrimaryFlatButton" />
+    </RelativeLayout>
+</LinearLayout>

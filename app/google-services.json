@@ -1,0 +1,164 @@
+{
+  "project_info": {
+    "project_number": "143894725353",
+    "firebase_url": "https://daitechmobile-1.firebaseio.com",
+    "project_id": "daitechmobile-1",
+    "storage_bucket": "daitechmobile-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143894725353:android:fcfef757a832647b",
+        "android_client_info": {
+          "package_name": "com.google.firebase.quickstart.database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143894725353-khlgb4390lpchps81p21ghfo3eh8rmqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBINNyq0XFlmL6CbTcnz8dWOoEPW0sB-_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143894725353-khlgb4390lpchps81p21ghfo3eh8rmqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143894725353:android:55101cc67946ec18",
+        "android_client_info": {
+          "package_name": "ique.daitechagent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143894725353-khlgb4390lpchps81p21ghfo3eh8rmqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBINNyq0XFlmL6CbTcnz8dWOoEPW0sB-_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143894725353-khlgb4390lpchps81p21ghfo3eh8rmqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143894725353:android:291e7e18ebdecce7f56678",
+        "android_client_info": {
+          "package_name": "ique.daitechagentmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143894725353-khlgb4390lpchps81p21ghfo3eh8rmqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBINNyq0XFlmL6CbTcnz8dWOoEPW0sB-_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143894725353-khlgb4390lpchps81p21ghfo3eh8rmqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143894725353:android:e62fc445e2b52ea2",
+        "android_client_info": {
+          "package_name": "ique.daitechmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143894725353-khlgb4390lpchps81p21ghfo3eh8rmqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBINNyq0XFlmL6CbTcnz8dWOoEPW0sB-_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143894725353-khlgb4390lpchps81p21ghfo3eh8rmqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143894725353:android:8bf587e6d9eaa59f",
+        "android_client_info": {
+          "package_name": "ique.daitechmobileadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143894725353-07di6srdl2l86qi5qr5jgarmdkh5hgd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ique.daitechmobileadmin",
+            "certificate_hash": "145a5c5b17d9d123abb7f4dce4a29b7f4036f500"
+          }
+        },
+        {
+          "client_id": "143894725353-khlgb4390lpchps81p21ghfo3eh8rmqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBINNyq0XFlmL6CbTcnz8dWOoEPW0sB-_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143894725353-khlgb4390lpchps81p21ghfo3eh8rmqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

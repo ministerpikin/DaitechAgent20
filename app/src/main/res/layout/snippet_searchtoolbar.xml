@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/searchToolbar"
+        android:background="@drawable/grey_border_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivBackArrow"
+                    android:layout_width="25.0dip"
+                    android:layout_height="25.0dip"
+                    android:src="@drawable/ic_backarrow_teal"
+                    android:layout_marginEnd="15.0dip" />
+
+                <EditText
+                    android:textSize="20.0sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/etSearchContacts"
+                    android:background="@null"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Find Entry"
+                    android:layout_toRightOf="@+id/ivBackArrow" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</merge>

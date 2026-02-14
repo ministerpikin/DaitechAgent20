@@ -1,0 +1,64 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/viewContactsToolbar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/menu_menu"
+                    android:layout_width="34dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="true"
+                    android:onClick="menu_menu_image"
+                    android:src="@drawable/ic_menu_menu_icon" />
+
+                <TextView
+                    android:id="@+id/toolbarHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Performance Indices"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginStart="5dp"
+                    android:layout_toRightOf="@id/menu_menu"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/ivAddCustomerIcon"
+                    android:layout_toLeftOf="@+id/ivSearchIcon"
+                    android:layout_marginRight="10dp"
+                    android:visibility="gone"
+                    android:src="@drawable/ic_add_person_icon"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="15dp"
+                    android:id="@+id/ivSearchIcon"
+                    android:src="@drawable/ic_search"/>
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</merge>
